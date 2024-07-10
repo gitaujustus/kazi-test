@@ -7,7 +7,7 @@ import { IoMdCloudUpload } from "react-icons/io";
   const [assignType, setAssignType] = useState('date');
 
   return (
-    <div className=" min-h-screen p-8">
+    <div className=" min-h-screen ">
       <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-md p-6">
         <h1 className="text-2xl text-[#172448] flex justify-center font-bold mb-6"> Assign Bulk Shifts</h1>
         <h2 className="text-xl text-[#172448] font-semibold mb-4">Add Shift Roster</h2>
@@ -36,7 +36,7 @@ import { IoMdCloudUpload } from "react-icons/io";
           </div>
         </div>
 
-        <div className='flex justify-between'>
+        <div className='flex justify-between gap-2 flex-wrap'>
         <div className="mb-6 text-[#172448]">
           <label className=" mb-2">Employee Shift</label>
           <select className="w-full border rounded-md p-2">

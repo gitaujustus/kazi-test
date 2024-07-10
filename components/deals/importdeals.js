@@ -5,7 +5,7 @@ import StyledCheckBox from '@/components/ui/checkboxStyle';
 function ImportDeals() {
   return (
     <main>
-         <div className='bg-white w-full mx-4 min-h-[70vh] rounded-lg px-10 py-5'>
+         <div className='bg-white w-full min-h-[70vh] rounded-lg px-10 py-5'>
             <h1 className='text-center text-2xl font-semibold py-2'>Import Deals</h1>
             <p className='py-2 font-semibold text-xl'>Import Deals</p>
 

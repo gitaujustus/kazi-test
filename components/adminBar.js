@@ -18,18 +18,19 @@ const AdminBar = () => {
         <div className="flex items-center justify-between ">
           {/* Admin Profile and Search */}
           <div className="flex items-center ml-6 md:ml-0  md:gap-16 lg:gap-44 space-x-4 flex-grow w-2/3 ">
-           <div className='flex items-center gap-2'>
-            <img
+          <div className='flex items-center gap-2'>
+            <div className="w-16 h-16 relative">
+              <img
                 src="https://avatars.githubusercontent.com/u/113968776?v=4"
                 alt="Admin"
-                className="w-16 h-16  rounded-full border-2 border-[#076B6D]"
+                className="absolute inset-0 w-full h-full object-cover rounded-full border-2 border-[#076B6D]"
               />
-              <p className='hidden sm:flex flex-col'>
-                <span className="font-semibold text-3xl">Admin</span>
-                <span className="text-xs">Employee Id: {EmployeeID}</span>
-              </p>
-           </div>
-
+            </div>
+            <p className='hidden sm:flex flex-col'>
+              <span className="font-semibold text-3xl">Admin</span>
+              <span className="text-xs">Employee Id: {EmployeeID}</span>
+            </p>
+          </div>
             <div className="relative flex gap-6 flex-grow max-w-md ">
               <input
                 type="text"

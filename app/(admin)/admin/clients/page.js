@@ -125,7 +125,7 @@ function Clients() {
 
         <section 
         ref={importRef}
-        className={`flex-1 fixed top-0 right-0 h-full w-[90vw] bg-[#172448] p-10 transition-transform duration-300 ease-in-out transform ${
+        className={`flex-1 fixed z-50  p-2 sm:p-10  top-0 right-0 h-full w-[90vw] bg-[#172448]  transition-transform duration-300 ease-in-out transform ${
           showImport ? 'translate-x-0' : 'translate-x-full'
         }  overflow-y-auto`}
       >
